@@ -1,0 +1,1 @@
+SELECT author, COUNT(*) from books GROUP BY author ORDER BY COUNT(*) DESC;
